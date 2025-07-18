@@ -36,3 +36,92 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+body {
+  background-color: #f2f6fc;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Todos.css */
+.todos-container {
+  min-height: 70vh;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.todo-heading {
+  font-weight: 600;
+  color: #222;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+
+/* Todoitem.css */
+.todo-item {
+  background: #ffffff;
+  padding: 20px;
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.todo-item:hover {
+  transform: scale(1.02);
+  background: #f8f9fa;
+}
+
+.todo-item h3 {
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+.todo-item p {
+  color: #555;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+/* AddTodo.css */
+.add-todo-container {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 12px;
+  margin: 30px auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+}
+
+.add-todo-container h3 {
+  color: #0d6efd;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.add-todo-container label {
+  font-weight: 500;
+  color: #333;
+}
+
+.add-todo-container input {
+  border-radius: 8px;
+}
+
+.add-todo-container button {
+  margin-top: 10px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+
